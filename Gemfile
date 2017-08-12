@@ -6,9 +6,11 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jbuilder', '~> 2.6'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'web-console', '~> 2.0', group: :development
+
 group :development, :test do
   gem 'byebug'
-  gem 'web-console', '~> 2.0'
+  gem 'capybara-webkit'
   gem 'spring'
   gem 'rubocop', require: false
   gem 'rspec-rails'
