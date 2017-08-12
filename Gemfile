@@ -14,4 +14,5 @@ group :development, :test do
   gem 'spring'
   gem 'rubocop', require: false
   gem 'rspec-rails'
+  gem 'factory_girl_rails'
 end
